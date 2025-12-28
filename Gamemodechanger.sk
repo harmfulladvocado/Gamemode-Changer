@@ -1,0 +1,41 @@
+command /gmc [<player>]:
+    permission: skript.gmc
+    trigger:
+        if arg-1 isn't set:
+            make player execute command "gamemode creative %player%"
+        else:
+            make player execute command "gamemode creative %arg-1%"
+
+
+command /gms [<player>]:
+    permission: skript.gms
+    trigger:
+        if arg-1 isn't set:
+            make player execute command "gamemode survival %player%"
+        else:
+            make player execute command "gamemode survival %arg-1%"
+
+
+command /gma [<player>]:
+    permission: skript.gma
+    trigger:
+        if arg-1 isn't set:
+            make player execute command "gamemode adventure %player%"
+        else:
+            make player execute command "gamemode adventure %arg-1%"
+
+command /gmsp [<player>]:
+    permission: skript.gmsp
+    trigger:
+        if arg-1 isn't set:
+            make player execute command "gamemode spectator %player%"
+        else:
+            make player execute command "gamemode spectator %arg-1%"
+
+command /gm <text> [<player>]:
+    permission: skript.gm
+    trigger:
+        if arg-2 isn't set:
+            make player execute command "gamemode %arg-1% %player%"
+        else:
+            make player execute command "gamemode %arg-1% %arg-2%"
