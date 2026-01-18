@@ -1,7 +1,5 @@
 # Gamemode Commands Skript
 
-A simple Skript that adds convenient gamemode commands for Minecraft servers.
-
 ## Commands
 
 | Command | Description | Permission |
@@ -34,7 +32,7 @@ A simple Skript that adds convenient gamemode commands for Minecraft servers.
 1. Make sure you have [Skript](https://github.com/SkriptLang/Skript) installed on your server
 2. Download the `.sk` file
 3. Place it in your `plugins/Skript/scripts/` folder
-4. Run `/skript reload <filename>` or restart your server
+4. Run `/skript reload <filename>.sk` or restart your server
 
 ## Permissions
 
